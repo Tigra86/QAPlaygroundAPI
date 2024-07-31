@@ -43,7 +43,7 @@ def test_delete_user():
     """
     The code on the line 41 is doing the same as the following for loop:
         for user_id in users['users']:
-        assert user_uuid != user_id, "User is not deleted"
+            assert user_uuid != user_id, "User is not deleted"
     """
 
     # Step 5: Verify that user information doesn't return
